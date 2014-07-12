@@ -1,0 +1,22 @@
+{
+  "name": "Devnagari INSCRIPT keyboard for chrome",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "This extension brings INSCRIPT Devnagari keyboard layout to chrome.",
+  "background":  {
+    "scripts": ["main.js"]
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Devnagari INSCRIPT keyboard for chrome",
+      "type": "ime",
+      "id": "test",
+      "description": "This extension brings INSCRIPT Devnagari keyboard layout to chrome.",
+      "language": "en-US",
+      "layouts": ["us::eng"]
+    }
+  ]
+}
